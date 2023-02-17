@@ -1,14 +1,16 @@
 [tool.poetry]
-name = "imageconv"
+name = "filters-opencv"
 version = "0.1.0"
 description = ""
-authors = ["Luigi_Capello <Stepa.kashin.2018@gmail.com>"]
+authors = ["Namxobick <andreyyurin@icloud.com>"]
 readme = "README.md"
+packages = [{include = "filters_opencv"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pillow = "^9.4.0"
-numpy = "^1.24.2"
+opencv-python = "^4.7.0.68"
+loguru = "^0.6.0"
+wemake-python-styleguide = "^0.17.0"
 
 
 [build-system]
