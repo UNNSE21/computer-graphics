@@ -7,6 +7,7 @@ class Image:
     def __init__(self, path: str):
         self.path = path
         self.image = cv2.imread(path)
+
         if not isinstance(self.image, numpy.ndarray):
             raise Exception('Сant open image: check file path.')
         self.height = self.image.shape[0]
@@ -17,6 +18,11 @@ class Image:
 
     def __setitem__(self, vals, rgb_color):
         self.image[vals] = tuple(reversed(rgb_color))
+
+    def load_bitmap(self, bgr_bitmap):
+        self.image = numpy.array(bgr_bitmap)
+        self.height = self.image.shape[0]
+        self.width = self.image.shape[1]
 
     def show(self):
         cv2.imshow("Image", self.image)

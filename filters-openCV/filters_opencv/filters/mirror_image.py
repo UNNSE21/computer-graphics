@@ -11,4 +11,3 @@ def vertically(image: Image):
     for i in range(int(image.height / 2)):
         for j in range(image.width):
             image[i, j], image[image.height - 1 - i, j] = image[image.height - 1 - i, j],  image[i, j]
-
