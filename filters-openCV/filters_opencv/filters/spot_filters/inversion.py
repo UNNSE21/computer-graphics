@@ -1,5 +1,5 @@
+from filters_opencv.filters.spot_filters import WHITE_RGB
 from filters_opencv.image import Image
-from filters_opencv.filters import WHITE_RGB
 
 
 def invert(image: Image):

@@ -1,4 +1,5 @@
 from numpy import arange
+
 from filters_opencv.image import Image
 
 
