@@ -12,9 +12,7 @@ class Image:
             raise Exception('Сant open image: check file path.')
         self.height = self.image.shape[0]
         self.width = self.image.shape[1]
-
-    def __copy__(self):
-        return Image(self.path)
+        self.size = self.height * self.width
 
     def __getitem__(self, vals):
         return tuple(reversed(self.image[vals]))

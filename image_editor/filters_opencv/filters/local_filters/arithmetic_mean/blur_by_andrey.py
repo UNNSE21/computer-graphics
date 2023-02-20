@@ -1,11 +1,11 @@
-from copy import copy
+from copy import deepcopy
 
-from filters_opencv.filters.local_filters.arithmetic_mean import _arithmetic_mean
+from filters_opencv.filters.local_filters.arithmetic_mean.utils import _arithmetic_mean
 from filters_opencv.image import Image
 
 
-def blur(image: Image, radius_x: int, radius_y: int):
-    copy_image = copy(image)
+def blur_by_andrey(image: Image, radius_x: int, radius_y: int):
+    copy_image = deepcopy(image)
 
     count_pixels = base_count_pixels = (radius_x + 1) * (radius_y + 1)
     district = base_district = [x * count_pixels for x in _arithmetic_mean(
@@ -17,7 +17,6 @@ def blur(image: Image, radius_x: int, radius_y: int):
     )]
 
     for i in range(image.height):
-        print(1)
         for j in range(image.width):
             image[i, j] = [x / count_pixels for x in district]
             district, count_pixels = _calculate_district(copy_image, district, count_pixels, j, i, radius_x, radius_y)
