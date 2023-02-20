@@ -13,6 +13,9 @@ class Image:
         self.height = self.image.shape[0]
         self.width = self.image.shape[1]
 
+    def __copy__():
+        return Image(self.path)
+
     def __getitem__(self, vals):
         return tuple(reversed(self.image[vals]))
 
