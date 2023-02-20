@@ -16,7 +16,6 @@ def main():
     """Main method. Entry point."""
     try:
         image = Image("images/2.png")
-
         image.show()
     except Exception as ex:
         logger.critical('You have done something wrong! {0}'.format(str(ex)))
