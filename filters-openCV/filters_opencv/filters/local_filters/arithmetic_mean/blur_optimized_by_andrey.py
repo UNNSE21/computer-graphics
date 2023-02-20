@@ -17,6 +17,7 @@ def blur(image: Image, radius_x: int, radius_y: int):
     )]
 
     for i in range(image.height):
+        print(1)
         for j in range(image.width):
             print(i, j)
             image[i, j] = [x / count_pixels for x in district]
