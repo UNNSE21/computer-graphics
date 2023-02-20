@@ -18,7 +18,6 @@ def blur(image: Image, radius_x: int, radius_y: int):
 
     for i in range(image.height):
         for j in range(image.width):
-            print(i, j)
             image[i, j] = [x / count_pixels for x in district]
             district, count_pixels = _calculate_district(copy_image, district, count_pixels, j, i, radius_x, radius_y)
 
@@ -53,7 +52,7 @@ def _calculate_district(image: Image, district, count_pixels, pos_x: int, pos_y:
 
 
 def _calculate_base_district(image: Image, district, count_pixels, pos_y: int,  radius_x: int, radius_y: int):
-    for j in range(2 * radius_x + 1):
+    for j in range(radius_x + 1):
         if pos_y - radius_y < 0:
             district = [x + y for x, y in zip(district, image[pos_y + radius_y + 1, j])]
             count_pixels += 1
