@@ -7,7 +7,6 @@ def blur(image:Image,radius_h,radius_w):
     static_image = copy(image)
 
     for i in range(image.height):
-        print(i)
         if(i%2==0):
             for j in range(image.width):
                 image[i,j] = _update_pixel(static_image,i,j,radius_h,radius_w,oldrgb)
