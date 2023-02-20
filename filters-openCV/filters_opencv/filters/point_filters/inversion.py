@@ -1,4 +1,4 @@
-from filters_opencv.filters.spot_filters import WHITE_RGB
+from filters_opencv.filters.point_filters import WHITE_RGB
 from filters_opencv.image import Image
 
 

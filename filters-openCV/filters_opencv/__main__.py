@@ -1,21 +1,21 @@
 from loguru import logger
 
-import filters_opencv.filters.mirror_image as mirror_image
-from filters_opencv.filters.arithmetic_mean import arithmetic_mean
-from filters_opencv.filters.changing_histogram import (
-    average_color,
-    darken,
-    lighten,
+import filters_opencv.filters.point_filters.mirror_image as mirror_image
+from filters_opencv.filters.local_filters.arithmetic_mean import arithmetic_mean
+from filters_opencv.filters.global_filters.median_filters import (
+    averaging_color,
+    darkening,
+    lightening,
 )
-from filters_opencv.filters.inversion import invert
-from filters_opencv.filters.scale import scale
+from filters_opencv.filters.point_filters.inversion import invert
+from filters_opencv.filters.point_filters.scale import scale
 from filters_opencv.image import Image
 
 
 def main():
     """Main method. Entry point."""
     try:
-        image = Image("../images/2.png")
+        image = Image("images/2.png")
 
         image.show()
     except Exception as ex:
