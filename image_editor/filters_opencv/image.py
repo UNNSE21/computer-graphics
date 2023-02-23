@@ -18,6 +18,7 @@ class Image:
         return tuple(reversed(self.image[vals]))
 
     def __setitem__(self, vals, rgb_color):
+        rgb_color = [min(max(x, 0), 255) for x in rgb_color]
         self.image[vals] = tuple(reversed(rgb_color))
 
     def load_bitmap(self, bgr_bitmap):
