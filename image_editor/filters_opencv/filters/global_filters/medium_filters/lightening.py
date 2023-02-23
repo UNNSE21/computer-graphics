@@ -1,4 +1,4 @@
-from filters_opencv.filters.global_filters.median_filters.utils import _calculate_mid_rgb_color
+from filters_opencv.filters.global_filters.medium_filters.utils import _calculate_mid_rgb_color
 from filters_opencv.image import Image
 
 
