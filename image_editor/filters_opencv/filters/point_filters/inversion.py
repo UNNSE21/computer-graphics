@@ -1,8 +1,5 @@
+from filters_opencv.filters.point_filters.utils.constants import WHITE_RGB
 from filters_opencv.image import Image
-from typing import Final
-
-
-WHITE_RGB: Final = (255, 255, 255)
 
 
 def invert(image: Image):
