@@ -9,5 +9,5 @@ from filters_opencv.filters.point_filters import (
     relocate,
     rotate,
 )
-from filters_opencv.filters.local_filters import blur, blur_by_andrey, not_optimized_blur
+from filters_opencv.filters.local_filters import blur, blur_by_andrey, not_optimized_blur,matrix_blur,matrix_gaussian_blur
 from filters_opencv.filters.global_filters import average_color, darken, lighten

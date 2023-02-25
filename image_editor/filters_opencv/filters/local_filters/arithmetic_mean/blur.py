@@ -1,11 +1,11 @@
 from filters_opencv.image import Image
 from numpy import array
-from copy import copy
+from copy import deepcopy
 
 
 def blur(image: Image, radius_h, radius_w):
     old_rgb = _pixel(image, 0, 0, radius_h, radius_w)
-    static_image = copy(image)
+    static_image = deepcopy(image)
 
     for i in range(image.height):
         if i % 2 == 0:
