@@ -8,19 +8,17 @@ from filters_opencv.filters.point_filters import (
     change_brightness,
     relocate,
     rotate,
-    waves,
-    glass,
 )
 from filters_opencv.filters.local_filters import (
-    blur, 
-    blur_by_andrey, 
+    blur,
+    blur_by_andrey,
     not_optimized_blur,
-    matrix_blur,
-    matrix_gaussian_blur,
-    matrix_pruitt,
-    matrix_sobel,
-    matrix_scharr,
-    matrix_sharp,
-    matrix_motion_blur,
-    )
+    blur_gaussian,
+    sobel,
+    increase_sharpness_1,
+    increase_sharpness_2,
+    sharra,
+    pruitt,
+    motion_blur,
+)
 from filters_opencv.filters.global_filters import average_color, darken, lighten
