@@ -21,7 +21,6 @@
 15. [✅Motion Blur](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
 16. [✅Резкость](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
 17. [✅Выделение границ](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
->>>>>>> 0094702ad6695821baef782e00eb44923964dbfe
 18. Медианный фильтр
 19. Линейное растяжение
 20. Серый мир под грибами
