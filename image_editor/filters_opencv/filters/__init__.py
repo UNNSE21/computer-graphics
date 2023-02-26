@@ -8,6 +8,8 @@ from filters_opencv.filters.point_filters import (
     change_brightness,
     relocate,
     rotate,
+    waves,
+    glass,
 )
 from filters_opencv.filters.local_filters import (
     blur, 

@@ -11,8 +11,8 @@
 10. Светящиеся края
 11. [✅Перенос](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/relocation.py)
 12. [✅Поворот](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/rotation.py)
-13. Волны
-14. Эффект (стекла)
+13. [✅🔧Волны](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/waves.py)
+14. [✅Эффект (стекла)](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/glass.py)
 15. Motion Blur
 16. Резкость
 17. Выделение границ

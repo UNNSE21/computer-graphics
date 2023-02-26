@@ -30,7 +30,6 @@ def _basic_matrix_border(base_image:Image,kernel):
 			base_image[i,j]=abs(new_pixel_color(image,i,j,kernel_x))+abs(new_pixel_color(image,i,j,kernel_y))
 
 # border filters
-
 def matrix_sobel(base_image:Image):
 	_basic_matrix_border(base_image,create_sobel_kernel()) 
 
