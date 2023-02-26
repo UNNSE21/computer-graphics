@@ -23,4 +23,4 @@ def new_pixel_color(image:Image,h:int,w:int,kernel):
 			result_rgb[1]+=image[ind_i,ind_j][1]*kernel[i+radius_h,j+radius_w]
 			result_rgb[2]+=image[ind_i,ind_j][2]*kernel[i+radius_h,j+radius_w]
 
-	return clip(result_rgb,0,255).astype(int)
+	return result_rgb.astype(int)
