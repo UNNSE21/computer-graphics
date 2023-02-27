@@ -1,6 +1,6 @@
 from filters_opencv.filters.local_filters.arithmetic_mean import blur, blur_by_andrey, not_optimized_blur
 from filters_opencv.filters.local_filters.gaussian_blur import blur_gaussian
-from filters_opencv.filters.local_filters.sobel import sobel
+from filters_opencv.filters.local_filters.outdated_implementation.sobel import legacy_sobel
 from filters_opencv.filters.local_filters.increase_sharpness import increase_sharpness_1, increase_sharpness_2
 from filters_opencv.filters.local_filters.sharra import sharra
 from filters_opencv.filters.local_filters.pruitt import pruitt

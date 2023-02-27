@@ -1,21 +1,21 @@
 from copy import deepcopy
-
-from numpy import power, sqrt
+from math import sqrt
 
 from filters_opencv.image import Image
 
 
 def apply_kernel(image: Image, kernels):
-    copy_image = deepcopy(image)
+    copy_image_1 = deepcopy(image)
+    copy_image_2 = deepcopy(image)
     for i in range(image.height):
         for j in range(image.width):
             match len(kernels):
                 case 1:
-                    image[i, j] = _calculate_pixel_color(copy_image, j, i, kernels[0])
+                    image[i, j] = _calculate_pixel_color(copy_image_1, j, i, kernels[0])
                 case 2:
-                    pixel_x = _calculate_pixel_color(copy_image, j, i, kernels[0])
-                    pixel_y = _calculate_pixel_color(copy_image, j, i, kernels[1])
-                    image[i, j] = sqrt(power(pixel_x, 2) + power(pixel_y, 2))
+                    pixel_x = _calculate_pixel_color(copy_image_1, j, i, kernels[0])
+                    pixel_y = _calculate_pixel_color(copy_image_2, j, i, kernels[1])
+                    image[i, j] = [sqrt(x ** 2 + y ** 2) for x, y in zip(pixel_x, pixel_y)]
 
 
 def _calculate_pixel_color(image: Image, pos_x: int, pos_y: int, kernel):
