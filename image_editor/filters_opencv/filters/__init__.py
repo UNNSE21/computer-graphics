@@ -23,4 +23,4 @@ from filters_opencv.filters.local_filters import (
     matrix_sharp,
     matrix_motion_blur,
     )
-from filters_opencv.filters.global_filters import average_color, darken, lighten
+from filters_opencv.filters.global_filters import average_color, darken, lighten,linear_stretch
