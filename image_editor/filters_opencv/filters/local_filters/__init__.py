@@ -7,3 +7,4 @@ from filters_opencv.filters.local_filters.matrixfilters import (
 	matrix_scharr,
 	matrix_sharp,
 	matrix_motion_blur,)
+from filters_opencv.filters.local_filters.median import median
