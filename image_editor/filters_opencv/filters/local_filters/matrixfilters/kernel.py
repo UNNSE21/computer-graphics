@@ -46,3 +46,4 @@ def create_pruitt_kernel():
 	y = array([[1,1,1],[0,0,0],[-1,-1,-1]])
 	x = array([[1,0,-1],[1,0,-1],[1,0,-1]])
 	return (x,y)
+

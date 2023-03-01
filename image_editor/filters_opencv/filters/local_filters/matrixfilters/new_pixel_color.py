@@ -1,5 +1,5 @@
 from filters_opencv.image import Image
-from numpy import array,clip
+from numpy import array
 
 def clamp(value,minn,maxx):
 	if(value<minn):

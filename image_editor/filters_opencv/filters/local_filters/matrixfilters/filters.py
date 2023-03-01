@@ -2,13 +2,13 @@ from filters_opencv.image import Image
 from copy import deepcopy
 from filters_opencv.filters.local_filters.matrixfilters.new_pixel_color import new_pixel_color
 from filters_opencv.filters.local_filters.matrixfilters.kernel import *
-from numpy import abs
+from numpy import abs,minimum
 
 def _basic_matrix(base_image:Image,kernel):
 	image = deepcopy(base_image)
 	for i in range(image.height):
 		for j in range(image.width):
-			base_image[i,j]=new_pixel_color(image,i,j,kernel)
+			base_image[i,j] = new_pixel_color(image,i,j,kernel)
 
 def matrix_blur(base_image:Image,h_matrix:int,w_matrix:int):
 	_basic_matrix(base_image,create_classic_kernel(h_matrix,w_matrix))
