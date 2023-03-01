@@ -7,7 +7,7 @@
 6. [✅Точечный фильтр увеличения яркости](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/changing_brightness.py)
 7. [✅Матричный фильтр Собеля](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
 8. [✅Матричный фильтр](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
-9. Тиснение
+9. [✅Тиснение](https://github.com/UNNSE21/computer-graphics/blob/main/image_editor/filters_opencv/filters/global_filters/embossing.py)
 10. Светящиеся края
 11. [✅Перенос](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/relocation.py)
 12. [✅Поворот](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/rotation.py)
