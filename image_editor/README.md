@@ -16,7 +16,7 @@
 15. [✅Motion Blur](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
 16. [✅Резкость](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
 17. [✅Выделение границ](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
-18. Медианный фильтр
+18. [✅Медианный фильтр](https://github.com/UNNSE21/computer-graphics/blob/main/image_editor/filters_opencv/filters/local_filters/median.py)
 19. [✅Линейное растяжение](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/global_filters/linear_stretch.py)
 20. Серый мир под грибами
 21. ...
