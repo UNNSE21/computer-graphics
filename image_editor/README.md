@@ -1,5 +1,6 @@
 # computer-graphics
 1. [✅Инверсия](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/inversion.py)
+![3](https://user-images.githubusercontent.com/56769104/222482989-9317bc90-4f8f-4532-a78e-1afdcb5658ba.png)
 2. [✅Блюр](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/arithmetic_mean)
 3. [✅Фильтр Гаусса](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
 4. [✅GrayScaleFilter](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/gray_scale.py)
