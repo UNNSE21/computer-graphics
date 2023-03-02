@@ -18,6 +18,6 @@
 17. [✅Выделение границ](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
 18. [✅Медианный фильтр](https://github.com/UNNSE21/computer-graphics/blob/main/image_editor/filters_opencv/filters/local_filters/median.py)
 19. [✅Линейное растяжение](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/global_filters/linear_stretch.py)
-20. Серый мир под грибами
+20. [✅Серый мир под грибами](https://github.com/UNNSE21/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/gray_scale.py)
 21. [✅Мат морфология erosion](https://github.com/UNNSE21/computer-graphics/blob/main/image_editor/filters_opencv/filters/local_filters/erosion.py)
 22. [✅Мат морфология dilation](https://github.com/UNNSE21/computer-graphics/blob/main/image_editor/filters_opencv/filters/local_filters/dilation.py)
