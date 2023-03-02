@@ -1,5 +1,5 @@
 # computer-graphics
-1. [✅Инверсия](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/inversion.py)
+1. [✅Инверсия](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/inversion.py)🖼️
 2. [✅Блюр](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/arithmetic_mean)
 3. [✅Фильтр Гаусса](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
 4. [✅GrayScaleFilter](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/gray_scale.py)
@@ -8,7 +8,7 @@
 7. [✅Матричный фильтр Собеля](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
 8. [✅Матричный фильтр](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
 9. [✅Тиснение](https://github.com/UNNSE21/computer-graphics/blob/main/image_editor/filters_opencv/filters/global_filters/embossing.py)
-10. Светящиеся края
+10. [✅Светящиеся края](https://github.com/UNNSE21/computer-graphics/blob/main/image_editor/filters_opencv/filters/global_filters/rainbow_border.py)
 11. [✅Перенос](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/relocation.py)
 12. [✅Поворот](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/rotation.py)
 13. [✅🔧Волны](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/waves.py)
