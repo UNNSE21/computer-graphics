@@ -1,16 +1,20 @@
 from filters_opencv.image import Image
 from copy import deepcopy
-from numpy import array,minimum,clip
+from numpy import array,minimum,clip,array_equal as equal
 import numpy
 
+COLOR_BORDER = 5
+SDVIG = 50
 
-def embossing(base_image:Image):
+def rainbow_border(base_image:Image,sdvig:int = SDVIG,color_border:int = COLOR_BORDER):
 	kernel = array([[0,1,0],[1,0,-1],[0,-1,0]])
 	image = deepcopy(base_image)
-	koef_sdvig = 100
 	for i in range(image.height):
 		for j in range(image.width):
-			base_image[i,j] = minimum(new_pixel_color(image,i,j,kernel) + koef_sdvig,array([255,255,255]))
+			npc = new_pixel_color(image,i,j,kernel) 
+			base_image[i,j] = minimum(
+				npc + sdvig if all(npc > color_border) else 0,
+				array([255,255,255]))
 
 	#normolize(base_image)
 

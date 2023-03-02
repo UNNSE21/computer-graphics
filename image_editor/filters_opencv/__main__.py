@@ -4,8 +4,8 @@ from filters_opencv.image import Image
 
 def main():
     """Main method. Entry point."""
-    image = Image("images/test1.png")
-    embossing(image)
+    image = Image("images/2.png")
+    rainbow_border(image)
     try:
         image.save("images/test1.png")
         image.show()

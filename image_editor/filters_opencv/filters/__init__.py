@@ -31,5 +31,6 @@ from filters_opencv.filters.global_filters import (
     darken,
     lighten,
     linear_stretch,
-    embossing
+    embossing,
+    rainbow_border
     )
