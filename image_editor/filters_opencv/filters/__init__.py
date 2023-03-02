@@ -14,7 +14,7 @@ from filters_opencv.filters.local_filters import (
     blur_by_andrey,
     not_optimized_blur,
     blur_gaussian,
-    legacy_sobel,
+    sobel,
     increase_sharpness_1,
     increase_sharpness_2,
     sharra,

@@ -21,8 +21,22 @@ class Image:
         rgb_color = [min(max(x, 0), 255) for x in rgb_color]
         self.image[vals] = tuple(reversed(rgb_color))
 
-    def load_bitmap(self, bgr_bitmap):
-        self.image = numpy.array(bgr_bitmap)
+    def get_bitmap(self):
+        bitmap = []
+        for i in range(self.height):
+            line = []
+            for j in range(self.width):
+                line.append(tuple(reversed(self.image[i, j])))
+            bitmap.append(line)
+        return bitmap
+
+    def load_bitmap(self, bitmap):
+        self.image = numpy.full((len(bitmap), len(bitmap[0]), 3), 0, dtype=numpy.uint8)
+        for i, row in enumerate(bitmap):
+            for j, elem in enumerate(row):
+                rgb_color = [int(min(max(x, 0), 255)) for x in tuple(reversed(elem))]
+                self.image[i, j] = rgb_color
+
         self.height = self.image.shape[0]
         self.width = self.image.shape[1]
 
