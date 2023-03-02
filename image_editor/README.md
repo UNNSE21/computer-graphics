@@ -29,7 +29,7 @@
 ![5](https://user-images.githubusercontent.com/56769104/222515717-45d1c1cf-5a23-4e44-8a50-b16e175c2bd0.png)
 ![6](https://user-images.githubusercontent.com/56769104/222500509-e36d72fd-2f19-4c46-85ad-ca7ead9f89a6.png)
 ![7](https://user-images.githubusercontent.com/56769104/222500527-20f0b5aa-07c8-4383-821f-fd0df9df1a15.png)
-## 1. [Инверсия]
+## 1. Инверсия
 ![](https://user-images.githubusercontent.com/56769104/222506030-b0468530-93cc-4285-a951-3943252130b3.png)
 ![](https://user-images.githubusercontent.com/56769104/222506513-968a8e87-9be9-4426-bc1c-a74926437e49.png)
 ## 2. Блюр
