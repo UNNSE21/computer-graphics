@@ -8,3 +8,5 @@ from filters_opencv.filters.local_filters.matrixfilters import (
 	matrix_sharp,
 	matrix_motion_blur,)
 from filters_opencv.filters.local_filters.median import median
+from filters_opencv.filters.local_filters.erosion import erosion
+from filters_opencv.filters.local_filters.dilation import dilation

@@ -1,7 +1,7 @@
 from filters_opencv.image import Image
 from copy import deepcopy
-from filters_opencv.filters.local_filters.matrixfilters.new_pixel_color import new_pixel_color
-from filters_opencv.filters.local_filters.matrixfilters.kernel import *
+#from filters_opencv.filters.local_filters.matrixfilters.new_pixel_color import new_pixel_color
+#from filters_opencv.filters.local_filters.matrixfilters.kernel import *
 from numpy import array,minimum,clip,sum as summ
 import numpy
 
@@ -9,9 +9,10 @@ import numpy
 def embossing(base_image:Image):
 	kernel = array([[0,1,0],[1,0,-1],[0,-1,0]])
 	image = deepcopy(base_image)
+	koef_sdvig = 100
 	for i in range(image.height):
 		for j in range(image.width):
-			base_image[i,j] = minimum(new_pixel_color(image,i,j,kernel) + 100,array([255,255,255]))
+			base_image[i,j] = minimum(new_pixel_color(image,i,j,kernel) + koef_sdvig,array([255,255,255]))
 
 	#normolize(base_image)
 

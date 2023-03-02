@@ -4,8 +4,9 @@ from filters_opencv.image import Image
 
 def main():
     """Main method. Entry point."""
+    image = Image("images/test1.png")
+    embossing(image)
     try:
-        image = Image("images/6.png")
         image.save("images/test1.png")
         image.show()
     except Exception as ex:

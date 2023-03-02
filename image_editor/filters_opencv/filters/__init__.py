@@ -22,6 +22,14 @@ from filters_opencv.filters.local_filters import (
     matrix_scharr,
     matrix_sharp,
     matrix_motion_blur,
-    median
+    median,
+    erosion,
+    dilation,
     )
-from filters_opencv.filters.global_filters import average_color, darken, lighten,linear_stretch,embossing
+from filters_opencv.filters.global_filters import (
+    average_color,
+    darken,
+    lighten,
+    linear_stretch,
+    embossing
+    )
