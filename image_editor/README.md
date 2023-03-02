@@ -1,7 +1,7 @@
 # computer-graphics
-1. [✅Инверсия](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/inversion.py)[🖼️](https://github.com/UNNSE21/computer-graphics/edit/main/image_editor/README.md#1-%D0%B8%D0%BD%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F)
-2. [✅Блюр](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/arithmetic_mean)[🖼️](https://github.com/UNNSE21/computer-graphics/edit/main/image_editor/README.md#2-%D0%B1%D0%BB%D1%8E%D1%80)
-3. [✅Фильтр Гаусса](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)[🖼️](https://github.com/UNNSE21/computer-graphics/edit/main/image_editor/README.md#3-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80-%D0%B3%D0%B0%D1%83%D1%81%D1%81%D0%B0)
+1. [✅Инверсия](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/inversion.py)[🖼️](https://github.com/UNNSE21/computer-graphics/edit/main/image_editor#1-%D0%B8%D0%BD%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F)
+2. [✅Блюр](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/arithmetic_mean)[🖼️](https://github.com/UNNSE21/computer-graphics/edit/main/image_editor#2-%D0%B1%D0%BB%D1%8E%D1%80)
+3. [✅Фильтр Гаусса](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)[🖼️](https://github.com/UNNSE21/computer-graphics/edit/main/image_editor#3-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80-%D0%B3%D0%B0%D1%83%D1%81%D1%81%D0%B0)
 5. [✅Сепия](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/sepia.py)
 6. [✅Точечный фильтр увеличения яркости](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/changing_brightness.py)
 7. [✅Матричный фильтр Собеля](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
@@ -29,7 +29,7 @@
 ![5](https://user-images.githubusercontent.com/56769104/222515717-45d1c1cf-5a23-4e44-8a50-b16e175c2bd0.png)
 ![6](https://user-images.githubusercontent.com/56769104/222500509-e36d72fd-2f19-4c46-85ad-ca7ead9f89a6.png)
 ![7](https://user-images.githubusercontent.com/56769104/222500527-20f0b5aa-07c8-4383-821f-fd0df9df1a15.png)
-## 1. [Инверсия](#inv)
+## 1. [Инверсия]
 ![](https://user-images.githubusercontent.com/56769104/222506030-b0468530-93cc-4285-a951-3943252130b3.png)
 ![](https://user-images.githubusercontent.com/56769104/222506513-968a8e87-9be9-4426-bc1c-a74926437e49.png)
 ## 2. Блюр
