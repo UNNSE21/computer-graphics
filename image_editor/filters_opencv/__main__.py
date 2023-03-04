@@ -4,9 +4,9 @@ from filters_opencv.image import Image
 
 def main():
     """Main method. Entry point."""
-    image = Image("images/2.png")
-    rainbow_border(image)
     try:
+        image = Image("images/2.png")
+        matrix_motion_blur(image,5)
         image.save("images/test1.png")
         image.show()
     except Exception as ex:

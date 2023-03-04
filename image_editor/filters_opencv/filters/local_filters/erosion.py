@@ -1,7 +1,6 @@
 from filters_opencv.image import Image
 from copy import deepcopy
 from numpy import array,array_equal as equal
-
 BLACK_RGB = array((0,0,0))
 WHITE_RGB = array((255,255,255))
 

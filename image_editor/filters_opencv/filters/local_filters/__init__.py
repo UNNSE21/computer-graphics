@@ -10,3 +10,9 @@ from filters_opencv.filters.local_filters.matrixfilters import (
 from filters_opencv.filters.local_filters.median import median
 from filters_opencv.filters.local_filters.erosion import erosion
 from filters_opencv.filters.local_filters.dilation import dilation
+from filters_opencv.filters.local_filters.black_hat import black_hat
+from filters_opencv.filters.local_filters.closing import closing
+from filters_opencv.filters.local_filters.grad import grad
+from filters_opencv.filters.local_filters.opening import opening
+from filters_opencv.filters.local_filters.top_hat import top_hat
+from filters_opencv.filters.local_filters.motion_blur import motion_blur

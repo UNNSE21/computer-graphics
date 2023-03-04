@@ -25,6 +25,12 @@ from filters_opencv.filters.local_filters import (
     median,
     erosion,
     dilation,
+    black_hat,
+    opening,
+    top_hat,
+    grad,
+    closing,
+    motion_blur,
     )
 from filters_opencv.filters.global_filters import (
     average_color,
