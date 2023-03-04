@@ -1,6 +1,6 @@
 from copy import deepcopy
 
-from filters_opencv.filters.local_filters.arithmetic_mean.utils import arithmetic_mean
+from filters_opencv.filters.local_filters.blur.arithmetic_mean.utils import arithmetic_mean
 from filters_opencv.image import Image
 
 

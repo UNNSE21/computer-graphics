@@ -1,0 +1,3 @@
+from filters_opencv.filters.local_filters.blur.arithmetic_mean.blur import blur
+from filters_opencv.filters.local_filters.blur.arithmetic_mean.blur_by_andrey import blur_by_andrey
+from filters_opencv.filters.local_filters.blur.arithmetic_mean.not_optimized_blur import not_optimized_blur

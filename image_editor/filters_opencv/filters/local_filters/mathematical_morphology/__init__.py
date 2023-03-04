@@ -1,0 +1,7 @@
+from filters_opencv.filters.local_filters.mathematical_morphology.erosion import erosion
+from filters_opencv.filters.local_filters.mathematical_morphology.dilation import dilation
+from filters_opencv.filters.local_filters.mathematical_morphology.opening import opening
+from filters_opencv.filters.local_filters.mathematical_morphology.closing import closing
+from filters_opencv.filters.local_filters.mathematical_morphology.top_hat import top_hat
+from filters_opencv.filters.local_filters.mathematical_morphology.black_hat import black_hat
+from filters_opencv.filters.local_filters.mathematical_morphology.grad import grad

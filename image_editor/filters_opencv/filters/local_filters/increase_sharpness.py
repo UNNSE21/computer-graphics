@@ -2,7 +2,7 @@ from filters_opencv.filters.local_filters.utils.constants import (
     INCREASE_SHARPNESS_KERNEL_1,
     INCREASE_SHARPNESS_KERNEL_2,
 )
-from filters_opencv.filters.local_filters.utils.methods.image_changes import apply_kernels
+from filters_opencv.filters.local_filters.utils.kernel_application import apply_kernels
 
 from filters_opencv.image import Image
 

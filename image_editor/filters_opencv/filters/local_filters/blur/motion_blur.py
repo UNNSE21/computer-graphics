@@ -1,6 +1,6 @@
 from copy import deepcopy
 
-from filters_opencv.filters.local_filters.utils.methods.calculation_kernel import calculate_kernel_motion_blur
+from filters_opencv.filters.local_filters.blur.utils.calculation_kernel import calculate_kernel_motion_blur
 from filters_opencv.image import Image
 
 
