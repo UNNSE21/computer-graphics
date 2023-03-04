@@ -8,9 +8,8 @@ from filters_opencv.image import Image
 def main():
     """Main method. Entry point."""
     try:
-        image = Image("../images/3.png")
-        gray_scale(image)
-        sharra(image)
+        image = Image("images/2.png")
+        waves(image, Direction.horizontal)
         image.show()
     except Exception as ex:
         logger.critical('You have done something wrong! {0}'.format(str(ex)))

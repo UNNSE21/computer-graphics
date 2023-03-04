@@ -1,6 +1,6 @@
 from copy import deepcopy
 
-from filters_opencv.filters import dilation
+from filters_opencv.filters.local_filters.mathematical_morphology.dilation import dilation
 from filters_opencv.filters.local_filters.mathematical_morphology.utils.constants import DEFAULT_PATTERN
 from filters_opencv.filters.local_filters.mathematical_morphology.utils.methods import subtract
 from filters_opencv.image import Image
