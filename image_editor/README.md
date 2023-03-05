@@ -43,7 +43,7 @@
 33. [Линейное растяжение](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/global_filters/linear_stretching.py)
 34. [Идеальный отражатель](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/global_filters/perfect_reflector.py)
 
-# Примеры
+# Примеры (До / После)
 
 ## Зеркальное отражение
 ![зеркальное_отражение](https://user-images.githubusercontent.com/100288192/222967472-63ebfcf0-c9c2-42df-9e35-621cc3dce2d8.png)
