@@ -1,6 +1,6 @@
 # Список фильтров
 
-* [Точечные фильтры](https://github.com/UNNSE21/computer-graphics/tree/Namxobick's-version/image_editor/filters_opencv/filters/point_filters)
+* [**Точечные фильтры**](https://github.com/UNNSE21/computer-graphics/tree/Namxobick's-version/image_editor/filters_opencv/filters/point_filters)
 
 1. [Зеркальное отражение](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/geometric_filters/mirror_image.py)
 2. [Перенос](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/geometric_filters/relocation.py)
@@ -13,7 +13,7 @@
 9. [Сепия](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/sepia.py)
 10. [Волны](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/waves.py)
 
-* [Локальные фильтры](https://github.com/UNNSE21/computer-graphics/tree/Namxobick's-version/image_editor/filters_opencv/filters/local_filters)
+* [**Локальные фильтры**](https://github.com/UNNSE21/computer-graphics/tree/Namxobick's-version/image_editor/filters_opencv/filters/local_filters)
 
 11. [Размытие](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/blur/arithmetic_mean/blur_by_andrey.py)
 12. [Размытие по Гауссу](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/blur/gaussian_blur.py)
@@ -33,7 +33,7 @@
 25. [Повышение резкости](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/increase_sharpness.py)
 26. [Медианный фильтр](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/median.py)
 
-* [Глобальные фильтры](https://github.com/UNNSE21/computer-graphics/tree/Namxobick's-version/image_editor/filters_opencv/filters/global_filters)
+* [**Глобальные фильтры**](https://github.com/UNNSE21/computer-graphics/tree/Namxobick's-version/image_editor/filters_opencv/filters/global_filters)
 27. [Усреднение яркости](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/global_filters/medium_filters/averaging_color.py)
 28. [Затемнение](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/global_filters/medium_filters/darkening.py)
 29. ["Серый мир"](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/global_filters/medium_filters/gray_world.py)
