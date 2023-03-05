@@ -47,4 +47,19 @@
 
 ## Зеркальное отражение
 ![зеркальное_отражение](https://user-images.githubusercontent.com/100288192/222975746-2f084fc4-3311-49de-8b80-0a137e1b0169.png)
-
+## Перенос
+![перенос](https://user-images.githubusercontent.com/100288192/222976795-1167a9d6-a1b7-4075-8f08-f063a9d01973.png)
+## Поворот
+![поворот](https://user-images.githubusercontent.com/100288192/222976807-649a7e88-731e-4803-aadc-5beafd1d2a10.png)
+## Изменение размера
+![изменение_размера](https://user-images.githubusercontent.com/100288192/222976852-d19f9fb2-7a71-424c-8790-e35f05327f15.png)
+## Эффект "стекла"
+![эффект_стекла](https://user-images.githubusercontent.com/100288192/222976865-e0350656-1a7e-41d9-8aca-265d3bd1b30b.png)
+## Изоображение в оттенках серого
+![оттенки_серого](https://user-images.githubusercontent.com/100288192/222976888-987d02be-98d2-41e5-b1b8-69ee07eeae28.png)
+## Инверсия
+![инверсия](https://user-images.githubusercontent.com/100288192/222976902-9d351f7a-5b7a-4bed-96fd-b7ce99406e97.png)
+## Сепия
+![сепия](https://user-images.githubusercontent.com/100288192/222976944-6dadbc6f-1d53-4803-a802-3f051b5251e7.png)
+## Волны
+![волны](https://user-images.githubusercontent.com/100288192/222976951-70df904f-185e-4e1b-bef9-817ff042d29f.png)
