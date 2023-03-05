@@ -1,27 +1,44 @@
-# computer-graphics
-1. [✅Инверсия](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/inversion.py)
-2. [✅Блюр](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/arithmetic_mean)
-3. [✅Фильтр Гаусса](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
-4. [✅GrayScaleFilter](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/gray_scale.py)
-5. [✅Сепия](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/sepia.py)
-6. [✅Точечный фильтр увеличения яркости](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/changing_brightness.py)
-7. [✅Матричный фильтр Собеля](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
-8. [✅Матричный фильтр](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
-9. Тиснение
-10. Светящиеся края
-11. [✅Перенос](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/relocation.py)
-12. [✅Поворот](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/rotation.py)
-13. [✅🔧Волны](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/waves.py)
-14. [✅Эффект (стекла)](https://github.com/Namxobick/computer-graphics/blob/main/image_editor/filters_opencv/filters/point_filters/glass.py)
-15. Motion Blur
-16. Резкость
-17. Выделение границ
-13. Волны
-14. Эффект (стекла)
-15. [✅Motion Blur](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
-16. [✅Резкость](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
-17. [✅Выделение границ](https://github.com/Namxobick/computer-graphics/tree/main/image_editor/filters_opencv/filters/local_filters/matrixfilters)
-18. Медианный фильтр
-19. Линейное растяжение
-20. Серый мир под грибами
-21. ...
+# Список фильтров
+
+## * [Точечные фильтры](https://github.com/UNNSE21/computer-graphics/tree/Namxobick's-version/image_editor/filters_opencv/filters/point_filters)
+
+1. [Зеркальное отражение](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/geometric_filters/mirror_image.py)
+2. [Перенос](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/geometric_filters/relocation.py)
+3. [Поворот](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/geometric_filters/rotation.py)
+4. [Изменение размера](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/geometric_filters/scale.py)
+5. [Изменение яркости](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/changing_brightness.py)
+6. [Эффект "стекла"](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/glass_effect.py)
+7. [Изоображение в оттенках серого](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/gray_scale.py)
+8. [Инверсия](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/inversion.py)
+9. [Сепия](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/sepia.py)
+10. [Волны](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/waves.py)
+
+## * [Локальные фильтры](https://github.com/UNNSE21/computer-graphics/tree/Namxobick's-version/image_editor/filters_opencv/filters/local_filters)
+
+11. [Размытие](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/blur/arithmetic_mean/blur_by_andrey.py)
+12. [Размытие по Гауссу](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/blur/gaussian_blur.py)
+13. [Размытие движения](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/blur/motion_blur.py)
+14. [Выделение границ по Прюитту](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/border_selection/pruitt.py)
+15. [Выделение границ по Щарру](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/border_selection/sharra.py)
+16. [Выделение границ по Собелю](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/border_selection/sobel.py)
+17. [Наращивание](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/mathematical_morphology/dilation.py)
+18. [Эрозия](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/mathematical_morphology/erosion.py)
+19. [Размыкание](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/mathematical_morphology/opening.py)
+19. [Замыкание](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/mathematical_morphology/closing.py)
+20. ["Чёрная шляпа"](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/mathematical_morphology/black_hat.py)
+21. ["Верх шляпы"](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/mathematical_morphology/top_hat.py)
+22. [Grad](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/mathematical_morphology/grad.py)
+23. [Тиснение](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/embossing.py)
+24. [Светящиеся края](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/glowing_edges.py)
+25. [Повышение резкости](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/increase_sharpness.py)
+26. [Медианный фильтр](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/local_filters/median.py)
+
+## * [Глобальные фильтры](https://github.com/UNNSE21/computer-graphics/tree/Namxobick's-version/image_editor/filters_opencv/filters/global_filters)
+27. [Усреднение яркости](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/global_filters/medium_filters/averaging_color.py)
+28. [Затемнение](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/global_filters/medium_filters/darkening.py)
+29. ["Серый мир"](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/global_filters/medium_filters/gray_world.py)
+30. [Осветление](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/global_filters/medium_filters/lightening.py)
+31. [Коррекция "autolevels"](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/global_filters/autolevels.py)
+32. [Коррекция с опорным цветом](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/global_filters/correction_with_reference_color.py)
+33. [Линейное растяжение](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/global_filters/linear_stretching.py)
+34. [Идеальный отражатель](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/global_filters/perfect_reflector.py)
