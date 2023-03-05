@@ -31,6 +31,7 @@ from filters_opencv.filters.local_filters import (
     black_hat,
     grad,
     median,
+    maximum,
     glowing_edges,
     emboss,
 )

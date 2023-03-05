@@ -6,7 +6,7 @@ from filters_opencv.image import Image
 
 def opening(binary_image: Image, base_pixel: tuple[int, int] = None, pattern=DEFAULT_PATTERN):
     if base_pixel is None:
-        base_pixel = (int(len(pattern) / 2), int(len(pattern[0]) / 2))
+        base_pixel = (len(pattern) // 2, len(pattern[0]) // 2)
 
     erosion(binary_image, base_pixel, pattern)
     dilation(binary_image, base_pixel, pattern)

@@ -3,6 +3,7 @@ from filters_opencv.filters.local_filters.border_selection import sobel, pruitt,
 from filters_opencv.filters.local_filters.median import median
 from filters_opencv.filters.local_filters.glowing_edges import glowing_edges
 from filters_opencv.filters.local_filters.embossing import emboss
+from filters_opencv.filters.local_filters.maximum import maximum
 from filters_opencv.filters.local_filters.blur import (
     blur,
     blur_by_andrey,
