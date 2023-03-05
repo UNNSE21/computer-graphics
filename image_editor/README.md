@@ -1,6 +1,6 @@
 # Список фильтров
 
-* [## Точечные фильтры](https://github.com/UNNSE21/computer-graphics/tree/Namxobick's-version/image_editor/filters_opencv/filters/point_filters)
+* [**Точечные фильтры**](https://github.com/UNNSE21/computer-graphics/tree/Namxobick's-version/image_editor/filters_opencv/filters/point_filters)
 
 1. [Зеркальное отражение](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/geometric_filters/mirror_image.py)
 2. [Перенос](https://github.com/UNNSE21/computer-graphics/blob/Namxobick's-version/image_editor/filters_opencv/filters/point_filters/geometric_filters/relocation.py)
