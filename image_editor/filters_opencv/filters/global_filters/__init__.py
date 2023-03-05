@@ -1,1 +1,5 @@
-from filters_opencv.filters.global_filters.medium_filters import average_color, darken, lighten
+from filters_opencv.filters.global_filters.medium_filters import average_color, darken, lighten, gray_world
+from filters_opencv.filters.global_filters.linear_stretching import linear_stretch
+from filters_opencv.filters.global_filters.perfect_reflector import perfect_reflector
+from filters_opencv.filters.global_filters.autolevels import autolevels
+from filters_opencv.filters.global_filters.correction_with_reference_color import correct_with_reference_color

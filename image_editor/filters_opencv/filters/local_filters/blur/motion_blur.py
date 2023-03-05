@@ -14,7 +14,7 @@ def motion_blur(image: Image, size: int):
 
 def _calculate_pixel_color(image: Image, pos_x: int, pos_y: int, kernel):
     pixel = (0, 0, 0)
-    radius = int(len(kernel) / 2)
+    radius = len(kernel) // 2
     kernel_i = 0
     for i in range(pos_y - radius, pos_y + radius + 1):
         temp_i = min(max(0, i), image.height - 1)

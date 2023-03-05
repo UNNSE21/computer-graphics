@@ -11,14 +11,14 @@ def apply_kernels(image: Image, kernels):
         for j in range(image.width):
             match len(kernels):
                 case 1:
-                    image[i, j] = _calculate_pixel_color(copy_image_1, j, i, kernels[0])
+                    image[i, j] = calculate_pixel_color(copy_image_1, j, i, kernels[0])
                 case 2:
-                    pixel_x = _calculate_pixel_color(copy_image_1, j, i, kernels[0])
-                    pixel_y = _calculate_pixel_color(copy_image_2, j, i, kernels[1])
+                    pixel_x = calculate_pixel_color(copy_image_1, j, i, kernels[0])
+                    pixel_y = calculate_pixel_color(copy_image_2, j, i, kernels[1])
                     image[i, j] = [sqrt(x ** 2 + y ** 2) for x, y in zip(pixel_x, pixel_y)]
 
 
-def _calculate_pixel_color(image: Image, pos_x: int, pos_y: int, kernel):
+def calculate_pixel_color(image: Image, pos_x: int, pos_y: int, kernel):
     pixel = (0, 0, 0)
     radius_x, radius_y = int(len(kernel) / 2), int(len(kernel[0]) / 2)
     kernel_i, kernel_j = 0, 0

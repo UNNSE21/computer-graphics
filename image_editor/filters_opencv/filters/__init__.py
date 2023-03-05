@@ -30,5 +30,17 @@ from filters_opencv.filters.local_filters import (
     top_hat,
     black_hat,
     grad,
+    median,
+    glowing_edges,
+    emboss,
 )
-from filters_opencv.filters.global_filters import average_color, darken, lighten
+from filters_opencv.filters.global_filters import (
+    average_color,
+    darken,
+    lighten,
+    linear_stretch,
+    gray_world,
+    perfect_reflector,
+    autolevels,
+    correct_with_reference_color
+)

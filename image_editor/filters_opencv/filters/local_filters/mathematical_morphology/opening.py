@@ -1,8 +1,6 @@
 from filters_opencv.filters.local_filters.mathematical_morphology.dilation import dilation
 from filters_opencv.filters.local_filters.mathematical_morphology.erosion import erosion
-from filters_opencv.filters.local_filters.mathematical_morphology.utils.constants import (
-    DEFAULT_PATTERN,
-)
+from filters_opencv.filters.local_filters.mathematical_morphology.utils.constants import DEFAULT_PATTERN
 from filters_opencv.image import Image
 
 
