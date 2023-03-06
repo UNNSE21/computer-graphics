@@ -77,19 +77,19 @@
 ## Выделение границ по Собелю
 ![sobel](https://user-images.githubusercontent.com/100288192/223200653-ecb0eaad-2f68-407b-b395-9cd0dee85cac.png)
 ## Наращивание
-![dilation](https://user-images.githubusercontent.com/100288192/223200723-d5e34c03-001b-4b29-b77d-446c6afe407f.png)
+![dilation](https://user-images.githubusercontent.com/100288192/223203230-031fdbed-380d-4e29-a16a-6245bf024377.png)
 ## Эрозия
-![erosion](https://user-images.githubusercontent.com/100288192/223200757-bae43f67-0806-4fc6-9ebe-acbf7fa93374.png)
+![erosion](https://user-images.githubusercontent.com/100288192/223203240-5cf72b87-f5dd-4d7e-a95a-7da05feb3206.png)
 ## Размыкание
-![opening](https://user-images.githubusercontent.com/100288192/223200823-08de9ce3-dd55-4a3e-8b2e-d7fc9a52d3b3.png)
+![opening](https://user-images.githubusercontent.com/100288192/223203251-ab883912-b953-4953-9a5a-44018b2d72e6.png)
 ## Замыкание
-![closing](https://user-images.githubusercontent.com/100288192/223200858-5597a911-c1da-4a46-9b82-48c345095615.png)
+![closing](https://user-images.githubusercontent.com/100288192/223203258-11dd2770-6b88-45a2-bd8c-265f8d8412d3.png)
 ## "Чёрная шляпа"
-![black_hat](https://user-images.githubusercontent.com/100288192/223200905-22d20068-8c34-43b9-b1e9-7ac503ffa3db.png)
+![black_hat](https://user-images.githubusercontent.com/100288192/223203272-801bba32-26ff-45f5-b7d7-811481a62468.png)
 ## "Верх шляпы"
-![top_hat](https://user-images.githubusercontent.com/100288192/223200949-3cceefdf-14f0-45bd-996e-a7a67b405d11.png)
+![top_hat](https://user-images.githubusercontent.com/100288192/223203283-356bed15-4f0d-4a05-bfc0-d2bebfd353b8.png)
 ## Grad
-![grad](https://user-images.githubusercontent.com/100288192/223200993-4b641699-f31a-4f93-9557-66f911b56358.png)
+![grad](https://user-images.githubusercontent.com/100288192/223203290-7052dfd2-1d8d-4813-aa36-8372ac1f6eb4.png)
 ## Тиснение
 ![emboss](https://user-images.githubusercontent.com/100288192/223201044-e8bfc7d3-624e-463b-b824-b8e548cfd3ac.png)
 ## Светящиеся края
