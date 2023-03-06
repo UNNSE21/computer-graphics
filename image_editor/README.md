@@ -101,4 +101,18 @@
 ## Фильтр максимума
 ![maximum](https://user-images.githubusercontent.com/100288192/223201350-34860dc2-6387-4f28-94bb-d873fa9ff131.png)
 ## Медианный фильтр
-![median](https://user-images.githubusercontent.com/100288192/223201388-737552c4-ee18-4780-acba-de81bcd3eac5.png)
+![median](https://user-images.githubusercontent.com/100288192/223215463-8ba38211-b421-4c3d-8352-38c113ca58ac.png)
+## Усреднение яркости
+![average_color](https://user-images.githubusercontent.com/100288192/223215482-40dcbd1f-0e32-48e0-bcd1-3c3ab5236083.png)
+## Зетемнение
+![darken](https://user-images.githubusercontent.com/100288192/223215539-59ef7b3f-c99a-46df-bf92-e6cee94b4d17.png)
+## "Серый мир"
+![gray_world](https://user-images.githubusercontent.com/100288192/223215605-3a9294bd-4326-434a-9a37-56dad285630a.png)
+## Осветление
+![lighten](https://user-images.githubusercontent.com/100288192/223215663-44a16cb8-0766-4fd4-b586-d71a85aac92d.png)
+## Коррекция "autolevels"
+![autolevels](https://user-images.githubusercontent.com/100288192/223216182-3b55e5bd-486d-4f3a-90a0-952920d4a361.png)
+## Коррекция с опорным цветом
+![correct_with_reference_color](https://user-images.githubusercontent.com/100288192/223216205-b8004778-b67a-4de3-b0dd-c7c002cbb61b.png)
+## Линейное растяжение
+![linear_stretch](https://user-images.githubusercontent.com/100288192/223216249-eead644e-87a9-457f-99b9-daaa016fe085.png)
