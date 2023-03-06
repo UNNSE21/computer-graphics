@@ -64,3 +64,41 @@
 ![сепия](https://user-images.githubusercontent.com/100288192/222976944-6dadbc6f-1d53-4803-a802-3f051b5251e7.png)
 ## Волны
 ![волны](https://user-images.githubusercontent.com/100288192/222976951-70df904f-185e-4e1b-bef9-817ff042d29f.png)
+## Размытие
+![blur_2x2](https://user-images.githubusercontent.com/100288192/223200404-cffadc70-254d-409c-b39c-97fcad40d13a.png)
+## Размытие по Гауссу
+![blur_gaussian_sigma=2,1](https://user-images.githubusercontent.com/100288192/223200458-2154e7b7-ae68-43a3-b6af-bf16ab47d94f.png)
+## Размытие движения
+![motion_blur](https://user-images.githubusercontent.com/100288192/223200519-815bf98d-8a4d-49dd-bb59-65f1302606df.png)
+## Выделение границ по Прюитту
+![pruitt](https://user-images.githubusercontent.com/100288192/223200588-c3ea2f1d-51e1-4b77-afc4-1a172b14cb34.png)
+## Выделение границ по Щарру
+![sharra](https://user-images.githubusercontent.com/100288192/223200628-6dff7bfb-528c-48af-9cb7-124a6a019ee8.png)
+## Выделение границ по Собелю
+![sobel](https://user-images.githubusercontent.com/100288192/223200653-ecb0eaad-2f68-407b-b395-9cd0dee85cac.png)
+## Наращивание
+![dilation](https://user-images.githubusercontent.com/100288192/223200723-d5e34c03-001b-4b29-b77d-446c6afe407f.png)
+## Эрозия
+![erosion](https://user-images.githubusercontent.com/100288192/223200757-bae43f67-0806-4fc6-9ebe-acbf7fa93374.png)
+## Размыкание
+![opening](https://user-images.githubusercontent.com/100288192/223200823-08de9ce3-dd55-4a3e-8b2e-d7fc9a52d3b3.png)
+## Замыкание
+![closing](https://user-images.githubusercontent.com/100288192/223200858-5597a911-c1da-4a46-9b82-48c345095615.png)
+## "Чёрная шляпа"
+![black_hat](https://user-images.githubusercontent.com/100288192/223200905-22d20068-8c34-43b9-b1e9-7ac503ffa3db.png)
+## "Верх шляпы"
+![top_hat](https://user-images.githubusercontent.com/100288192/223200949-3cceefdf-14f0-45bd-996e-a7a67b405d11.png)
+## Grad
+![grad](https://user-images.githubusercontent.com/100288192/223200993-4b641699-f31a-4f93-9557-66f911b56358.png)
+## Тиснение
+![emboss](https://user-images.githubusercontent.com/100288192/223201044-e8bfc7d3-624e-463b-b824-b8e548cfd3ac.png)
+## Светящиеся края
+![glowing_edges](https://user-images.githubusercontent.com/100288192/223201089-853673d9-8cb7-4377-84fc-9f489f0e864a.png)
+## Повышение резкости 1
+![increase_sharpness_1](https://user-images.githubusercontent.com/100288192/223201168-54a357bf-636f-4338-81d6-f5511dde212c.png)
+## Повышение резкости 2
+![increase_sharpness_2](https://user-images.githubusercontent.com/100288192/223201219-5dc57214-3472-4f6a-a0d2-fc7b411e08da.png)
+## Фильтр максимума
+![maximum](https://user-images.githubusercontent.com/100288192/223201350-34860dc2-6387-4f28-94bb-d873fa9ff131.png)
+## Медианный фильтр
+![median](https://user-images.githubusercontent.com/100288192/223201388-737552c4-ee18-4780-acba-de81bcd3eac5.png)
