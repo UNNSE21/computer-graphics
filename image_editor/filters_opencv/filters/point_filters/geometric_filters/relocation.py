@@ -4,7 +4,9 @@ from filters_opencv.filters.point_filters.utils.constants import BLACK_RGB
 from filters_opencv.image import Image
 
 
-def relocate(image: Image, offset_x, offset_y):
+def relocate(image: Image, offset_x: int, offset_y: int):
+    offset_x = int(offset_x)
+    offset_y = int(offset_y)
     copy_image = deepcopy(image)
     for i in range(image.height):
         for j in range(image.width):

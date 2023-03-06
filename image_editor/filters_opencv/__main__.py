@@ -1,16 +1,12 @@
 from loguru import logger
 
-from filters_opencv.filters import *
-
-from filters_opencv.image import Image
+from filters_opencv.cmd_input import cmd_input
 
 
 def main():
     """Main method. Entry point."""
     try:
-        image = Image("images/2.png")
-        waves(image, Direction.horizontal)
-        image.show()
+        cmd_input()
     except Exception as ex:
         logger.critical('You have done something wrong! {0}'.format(str(ex)))
 
