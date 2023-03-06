@@ -18,10 +18,11 @@ def _parse_args():
         parser_command = subparsers.add_parser(command.name, help=command.help)
         for argument, type_argument in command.arguments.items():
             if 'nargs' in argument:
+                nargs = int(argument[-1]) if argument[-1].isdigit() else argument[-1]
                 parser_command.add_argument(
                     argument[6:argument.find('=')],
                     type=type_argument,
-                    nargs=argument[-1],
+                    nargs=nargs,
                 )
             else:
                 parser_command.add_argument(argument, type=type_argument)

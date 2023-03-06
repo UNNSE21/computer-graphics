@@ -11,6 +11,5 @@ def opening(binary_image: Image, pattern=DEFAULT_PATTERN, base_pixel: tuple[int,
         base_pixel = (len(pattern) // 2, len(pattern[0]) // 2)
     elif len(base_pixel) != 2:
         return 'There should be two numbers in the base_pixel'
-
-    erosion(binary_image, base_pixel, pattern)
-    dilation(binary_image, base_pixel, pattern)
+    erosion(binary_image, pattern, base_pixel)
+    dilation(binary_image, pattern, base_pixel)

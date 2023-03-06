@@ -15,7 +15,6 @@ def erosion(binary_image: Image, pattern=DEFAULT_PATTERN, base_pixel: tuple[int,
         base_pixel = (len(pattern) // 2, len(pattern[0]) // 2)
     elif len(base_pixel) != 2:
         return 'There should be two numbers in the base_pixel'
-
     copy_image = deepcopy(binary_image)
     for i in range(binary_image.height):
         for j in range(binary_image.width):

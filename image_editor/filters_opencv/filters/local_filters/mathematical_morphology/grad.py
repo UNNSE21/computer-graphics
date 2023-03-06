@@ -15,6 +15,6 @@ def grad(binary_image: Image, pattern=DEFAULT_PATTERN, base_pixel: tuple[int, in
         return 'There should be two numbers in the base_pixel'
 
     copy_image = deepcopy(binary_image)
-    dilation(binary_image, base_pixel, pattern)
-    erosion(copy_image, base_pixel, pattern)
+    dilation(binary_image, pattern, base_pixel)
+    erosion(copy_image, pattern, base_pixel)
     subtract(binary_image, copy_image)

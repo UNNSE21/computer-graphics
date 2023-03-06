@@ -15,4 +15,3 @@ def autolevels(image: Image):
                 [min_red, min_green, min_blue],
                 [max_red, max_green, max_blue]
             )]
-            print(t, image[i, j])

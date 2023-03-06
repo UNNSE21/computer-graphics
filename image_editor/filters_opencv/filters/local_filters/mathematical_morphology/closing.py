@@ -12,5 +12,5 @@ def closing(binary_image: Image, pattern=DEFAULT_PATTERN, base_pixel: tuple[int,
     elif len(base_pixel) != 2:
         return 'There should be two numbers in the base_pixel'
 
-    dilation(binary_image, base_pixel, pattern)
-    erosion(binary_image, base_pixel, pattern)
+    dilation(binary_image, pattern, base_pixel)
+    erosion(binary_image, pattern, base_pixel)
