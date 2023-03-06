@@ -79,15 +79,15 @@
 ## Наращивание
 ![dilation](https://user-images.githubusercontent.com/100288192/223203230-031fdbed-380d-4e29-a16a-6245bf024377.png)
 ## Эрозия
-![erosion](https://user-images.githubusercontent.com/100288192/223203240-5cf72b87-f5dd-4d7e-a95a-7da05feb3206.png)
+![erosion](https://user-images.githubusercontent.com/100288192/223204174-4b6fed9c-b72f-4f9d-a5a5-0d9172141823.png)
 ## Размыкание
-![opening](https://user-images.githubusercontent.com/100288192/223203251-ab883912-b953-4953-9a5a-44018b2d72e6.png)
+![opening](https://user-images.githubusercontent.com/100288192/223204198-db7dccd9-50d7-40d7-9844-80d006f8b8c8.png)
 ## Замыкание
-![closing](https://user-images.githubusercontent.com/100288192/223203258-11dd2770-6b88-45a2-bd8c-265f8d8412d3.png)
+![closing](https://user-images.githubusercontent.com/100288192/223204215-7105b6d9-270f-493d-a145-df5781a39ee9.png)
 ## "Чёрная шляпа"
-![black_hat](https://user-images.githubusercontent.com/100288192/223203272-801bba32-26ff-45f5-b7d7-811481a62468.png)
+![black_hat](https://user-images.githubusercontent.com/100288192/223204247-3d52fae1-7541-4ea9-9d75-e0669b8eee3f.png)
 ## "Верх шляпы"
-![top_hat](https://user-images.githubusercontent.com/100288192/223203283-356bed15-4f0d-4a05-bfc0-d2bebfd353b8.png)
+![top_hat](https://user-images.githubusercontent.com/100288192/223204276-38d0649a-79a6-4338-a34a-df1c2382ee50.png)
 ## Grad
 ![grad](https://user-images.githubusercontent.com/100288192/223203290-7052dfd2-1d8d-4813-aa36-8372ac1f6eb4.png)
 ## Тиснение
