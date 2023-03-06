@@ -4,12 +4,16 @@ from filters_opencv.filters.local_filters.mathematical_morphology.utils.constant
     DEFAULT_PATTERN,
     BLACK_RGB,
 )
+from filters_opencv.filters.local_filters.mathematical_morphology.utils.methods import try_convert_pattern
 from filters_opencv.image import Image
 
 
-def dilation(binary_image: Image, base_pixel: tuple[int, int] = None, pattern=DEFAULT_PATTERN):
+def dilation(binary_image: Image, pattern=DEFAULT_PATTERN, base_pixel: tuple[int, int] = None):
+    pattern = try_convert_pattern(pattern)
     if base_pixel is None:
         base_pixel = (len(pattern) // 2, len(pattern[0]) // 2)
+    elif len(base_pixel) != 2:
+        return 'There should be two numbers in the base_pixel'
 
     copy_image = deepcopy(binary_image)
     for i in range(binary_image.height):
