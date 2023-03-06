@@ -4,7 +4,12 @@ from filters_opencv.filters import *
 from filters_opencv.filters.filter import Filter
 
 local_filters: Final = [
-    Filter('blur', {'opening_path': str, 'saving_path': str, 'radius_x': int, 'radius_y': int}, 'Blur image', blur),
+    Filter(
+        'blur',
+        {'opening_path': str, 'saving_path': str, 'radius_x': int, 'radius_y': int},
+        'Blur image',
+        blur_by_andrey
+    ),
     Filter(
         'blur_gaussian',
         {'opening_path': str, 'saving_path': str, 'sigma': float, 'nargs_size=?': int},
