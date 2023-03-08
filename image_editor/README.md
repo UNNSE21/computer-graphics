@@ -128,3 +128,5 @@ P.s. В некоторых системам вместо py требуется �
 ![correct_with_reference_color](https://user-images.githubusercontent.com/100288192/223216205-b8004778-b67a-4de3-b0dd-c7c002cbb61b.png)
 ## Линейное растяжение
 ![linear_stretch](https://user-images.githubusercontent.com/100288192/223216249-eead644e-87a9-457f-99b9-daaa016fe085.png)
+## Идеальный отражатель
+![perfect_reflector](https://user-images.githubusercontent.com/100288192/223680761-039e666c-b265-41f1-ac19-7e24fe774a45.png)
